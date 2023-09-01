@@ -11,7 +11,6 @@ import Contact from './components/Contact/Contact'
 import Wave from './components/Wave/Wave'
 import Footer from './components/Footer/Footer'
 
-
 const App = () => {
 
   return (

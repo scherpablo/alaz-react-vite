@@ -7,7 +7,7 @@ const Header = () => {
         <div className={styles.containerHero}>
           <div className={styles.logoContainer}>
             {/* <img src="../public/img/header/logo10años.png" alt="" className={styles.logo} /> */}
-            <img src="/img/logo10años.png" alt="" className={styles.logo} />
+            <img src="/img/header/logo10years.png" alt="" className={styles.logo} />
           </div>
           <a href="https://whatsapp.com/" className={`${styles.ctaWhats} ${styles.cta}`}>
             WhatsApp

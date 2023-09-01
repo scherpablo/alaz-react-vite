@@ -1,0 +1,138 @@
+/* TITLES */
+.title {
+  text-align: center;
+  font-size: 45px;
+  padding: 20px 0;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }  
+}
+@media (max-width: 480px) {
+  .title {
+    font-size: 35px;
+  }  
+}
+
+/* CONTAINERS SECTIONS */
+.section {
+  padding: 30px 0;
+}
+
+/* CONTACT */
+.containerForm {
+  padding: 50px 0;
+  background-color: #c1da99;
+}
+.containerForm h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 50px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.input {
+  background: transparent;
+  border: 0;
+  color: #0f547b;
+  outline: none;
+  border: 1px solid #0f547b;
+  padding: 20px 10px;
+}
+.input::placeholder {
+  color: #0f547b;
+  font-family: "Quicksand", sans-serif;
+}
+.input[type="text"],
+.input[type="email"] {
+  display: inline-block;
+  width: 49%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.form textarea {
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.input[type="submit"] {
+  width: 10%;
+  text-align: center;
+  margin: 0 left;
+  padding: 16px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #0f547b;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.5s;
+}
+@media (max-width: 768px) {
+  .input[type="submit"] {
+    width: 25%;
+  }
+}
+@media (max-width: 480px) {
+  .input[type="text"],
+  .input[type="email"] {
+    width: 100%;
+  }
+  .input[type="submit"] {
+    width: 40%;
+  }
+}
+
+/* BUTTONS */
+.cta {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #c1da99;
+  padding: 20px;
+  border-radius: 10px;
+  color: #000;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  max-width: 150px;
+  overflow: hidden;
+}
+.ctaHome {
+  width: 10%;
+  text-align: center;
+  margin: 0 left;
+  padding: 14px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid #0f547b;
+  color: #0f547b;
+  font-size: 14px;
+  font-weight: 600;
+}
+.ctaHome:hover {
+  cursor: pointer;
+  background-color: #0f547b;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.5s;
+}
+@media (max-width: 768px) {
+  .ctaHome {
+    width: 25%;
+  }
+}
+@media (max-width: 480px) {
+  .ctaHome {
+    width: 40%;
+  }
+}

@@ -1,0 +1,76 @@
+/* TITLES */
+.title {
+  text-align: center;
+  font-size: 45px;
+  padding: 20px 0;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }  
+}
+@media (max-width: 480px) {
+  .title {
+    font-size: 35px;
+  }  
+}
+.serviceTitle,
+.galleryTitle,
+.clientsTitle {
+  color: #fff;
+}
+
+.clientsContent {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+  margin: 20px auto;
+  gap: 20px;
+  padding: 0 10px;
+}
+.clientsContent img {
+  width: 15%;
+  /* height: 300px; */
+  object-fit: contain;
+  margin: 20px 0;
+  display: block;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 8px 8px rgb(255, 255, 255, 0.5);
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .clientsContent img {
+    width: 25%;
+  }
+}
+@media (max-width: 480px) {
+  .clientsContent img {
+    width: 40%;
+  }
+}
+
+/* Animación de desplazamiento infinito */
+/* @keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.clientsContent {
+  width: 90%;
+  display: flex;
+  flex-wrap: nowrap; 
+  overflow: hidden;
+  margin: 20px auto;
+  gap: 20px;
+  padding: 0 10px;
+  animation: slideAnimation 10s linear infinite;
+} */
+

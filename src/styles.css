@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+    background-image: url("../img/html/portada-2.png");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  body {
+    font-family: "Quicksand", sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+

@@ -1,0 +1,88 @@
+/* TITLES */
+.title {
+  text-align: center;
+  font-size: 45px;
+  padding: 20px 0;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }  
+}
+@media (max-width: 480px) {
+  .title {
+    font-size: 35px;
+  }  
+}
+
+/* CONTAINERS SECTIONS */
+.section {
+  padding: 30px 0;
+}
+
+/* SECTION INFO */
+.containerInfo {
+  background-color: #c1da99;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+.containerTexts {
+  margin-top: 25px;
+}
+.containerInfo p {
+  font-size: 18px;
+  padding: 30px 0;
+  max-width: 500px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+.containerInfo img {
+  width: auto;
+  margin-top: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+    .containerInfo {
+      flex-direction: column;
+      padding: 0;
+    }
+    .containerTexts {
+      padding: 0 20px;
+    }
+    .containerInfo img {
+      width: 80%;
+      margin: 30px auto 10px auto ;
+    }
+  }
+
+/* BUTTONS */
+.cta {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #c1da99;
+  padding: 20px;
+  border-radius: 10px;
+  color: #000;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  max-width: 150px;
+  overflow: hidden;
+}
+.ctaInfo {
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+}
+.ctaInfo:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+  transition: 0.5s;
+  border: 2px solid #000;
+}

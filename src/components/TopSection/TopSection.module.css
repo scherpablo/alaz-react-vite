@@ -1,0 +1,32 @@
+/* ESTILOS GENERALES */
+.topSection {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.topSection h1 {
+  padding-top: 50px;
+  font-size: 50px;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .topSection h1 {
+    font-size: 35px;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .topSection h1 {
+    font-size: 30px;
+  }
+}
+.topSection img {
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+  padding: 20px 0;
+}

@@ -19,7 +19,8 @@ const Us = () => {
             Learn More
           </a>
         </div>
-        <img src="../public/img/us/logistica.png" alt="" className={styles.imgInfo}/>
+        {/* <img src="../public/img/us/logistica.png" alt="" className={styles.imgInfo}/> */}
+        <img src="/img/us/logistica.png" alt="" className={styles.imgInfo}/>
       </section>
     </>
   );

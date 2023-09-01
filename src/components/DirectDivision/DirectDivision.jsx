@@ -4,7 +4,8 @@ const DirectDivision = () => {
   return (
     <>
       <section className={`${styles.containerInfo} ${styles.section}`} id="directDivision">
-        <img src="../public/img/us/logistica.png" alt="" className={styles.imgDivision} />
+        {/* <img src="../public/img/us/logistica.png" alt="" className={styles.imgDivision} /> */}
+        <img src="/img/us/logistica.png" alt="" className={styles.imgDivision} />
         <div className={styles.containerTexts}>
           <h2 className={`${styles.title} ${styles.left}`}>Division Directa</h2>
           <p className={styles.paragraph}>

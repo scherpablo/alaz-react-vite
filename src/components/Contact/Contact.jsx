@@ -11,8 +11,8 @@ const Contact = () => {
             className={styles.input}
             name=""
             id=""
-            cols="30"
-            rows="10"
+            // cols="30"
+            // rows="10"
             placeholder="Mensaje"
           ></textarea>
           <a href="#home" className={styles.ctaHome}>

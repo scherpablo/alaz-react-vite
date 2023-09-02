@@ -9,6 +9,7 @@
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 @media (max-width: 768px) {
   .logoSections img {

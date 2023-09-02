@@ -41,79 +41,28 @@
   width: 100%;
   gap: 40px 0;
 }
-.card {
-  width: 30%;
-  text-align: center;
-  height: auto;
-  box-shadow: 0 0 5px 0 #000;
-  transform: scale(1);
-  transition: transform 1s;
-  border-radius: 20px;
-  background-color: #0f547b99;
+
+/* LOGO BOTTOM SECTION */
+.logoSections {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
 }
-.card:hover {
-  box-shadow: 0 0 20px 0 #fff;
-  transform: scale(1.03);
-  transition: transform 1s;
+.logoSections img {
+  width: 200px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
   cursor: pointer;
 }
-.card i {
-  margin: 50px 0 30px 0;
-  color: #c1da99;
-  font-size: 40px;
-}
-.card h3 {
-  font-size: 24px;
-  margin: 10px 0;
-  color: #fff;
-}
-.card p {
-  /* font-weight: 500; */
-  font-size: 20px;
-  margin: 10px auto 20px auto;
-  max-width: 300px;
-  text-align: center;
-  color: #000;
-  font-weight: 500;
-}
 @media (max-width: 768px) {
-  .card {
-    width: 50%;
-    transform: scale(0.9);
-  }
-  .card:hover {
-    box-shadow: 0 0 20px 0 #fff;
-    transform: scale(1);
+  .logoSections img {
+    width: 150px;
+    margin-top: 15px;
   }
 }
 @media (max-width: 480px) {
-  .card {
-    width: 90%;
-    transform: scale(0.8);
+  .logoSections img {
+    width: 100px;
   }
-  .card:hover {
-    transform: scale(0.9);
-  }
-}
-
-/* BUTTONS */
-.cta {
-  text-decoration: none;
-  font-weight: bold;
-  background-color: #c1da99;
-  padding: 20px;
-  border-radius: 10px;
-  color: #000;
-  margin: 30px auto;
-  display: flex;
-  justify-content: center;
-  max-width: 150px;
-  overflow: hidden;
-}
-.ctaCard:hover {
-  cursor: pointer;
-  background-color: #fff;
-  color: #0f547b;
-  font-weight: 600;
-  transition: 0.5s;
 }

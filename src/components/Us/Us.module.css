@@ -81,6 +81,7 @@
 .ctaInfo:hover {
   cursor: pointer;
   background-color: #fff;
+  background-color: #c1da99;
   color: #000;
   font-weight: 600;
   transition: 0.5s;

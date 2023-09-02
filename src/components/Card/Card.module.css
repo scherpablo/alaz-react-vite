@@ -1,0 +1,114 @@
+/* TITLES */
+.title {
+  text-align: center;
+  font-size: 45px;
+  padding: 20px 0;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }  
+}
+@media (max-width: 480px) {
+  .title {
+    font-size: 35px;
+  }  
+}
+.serviceTitle,
+.galleryTitle,
+.clientsTitle {
+  color: #fff;
+}
+
+/* SECTION SERVICES */
+.containerCard {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  width: 400px;
+  text-align: center;
+  height: auto;
+  box-shadow: 0 0 5px 0 #000;
+  transform: scale(1);
+  transition: transform 1s;
+  border-radius: 0 20px 20px 20px;
+  background-color: #0f547b99;
+  background-color: #0f547b;
+  /* background-color: #000; */
+}
+.card:hover {
+  box-shadow: 0 0 20px 0 #fff;
+  transform: scale(1.03);
+  transition: transform 1s;
+  cursor: pointer;
+}
+.card i {
+  margin: 50px 0 30px 0;
+  color: #c1da99;
+  font-size: 50px;
+}
+.card h3 {
+  font-size: 30px;
+  margin: 10px 0;
+  color: #fff;
+  color: #000;
+}
+.card p {
+  font-size: 16px;
+  margin: 10px auto 20px auto;
+  margin: 20px auto -10px auto;
+  max-width: 300px;
+  text-align: center;
+  color: #000;
+  color: #fff;
+  font-weight: 500;
+}
+.containerIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 30px;
+}
+.containerIcons i {
+  font-size: 24px;
+  color:#fff;
+  color:#c1da99;
+}
+.containerIcons i:hover {
+  color: #000;
+}
+@media (max-width: 768px) {
+  .card {
+    width: auto;
+  }
+  .card p {
+    padding: 15px;
+  }
+}
+
+/* BUTTONS */
+.cta {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #c1da99;
+  padding: 20px;
+  border-radius: 10px;
+  color: #000;
+  margin: 10px auto 30px auto;
+  display: flex;
+  justify-content: center;
+  max-width: 150px;
+  overflow: hidden;
+}
+.ctaCard:hover {
+  cursor: pointer;
+  background-color: #fff;
+  background-color: #0f547b;
+  color: #0f547b;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  transition: 0.3s;
+}

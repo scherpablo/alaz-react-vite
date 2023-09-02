@@ -21,6 +21,11 @@ const Clients = () => {
           <img src="/img/clients/pami.png" alt="" className={styles.galleryImg} />
         </article>
       </section>
+      <div className={styles.logoSections}>
+        <a href="#home">
+          <img src="/img/us/logo-section.png" alt="" />
+        </a>
+      </div>
     </>
   );
 };

@@ -64,6 +64,7 @@ form {
 }
 .input[type="submit"] {
   width: 20%;
+  width: 150px;
   text-align: center;
   margin: 0 left;
   padding: 16px 20px;
@@ -82,6 +83,7 @@ form {
 @media (max-width: 768px) {
   .input[type="submit"] {
     width: 25%;
+    width: 130px;
   }
 }
 @media (max-width: 480px) {
@@ -91,6 +93,7 @@ form {
   }
   .input[type="submit"] {
     width: 40%;
+    width: 110px;
   }
 }
 
@@ -110,6 +113,7 @@ form {
 }
 .ctaHome {
   width: 20%;
+  width: 150px;
   text-align: center;
   margin: 0 left;
   padding: 14px 20px;
@@ -131,10 +135,12 @@ form {
 @media (max-width: 768px) {
   .ctaHome {
     width: 25%;
+    width: 130px;
   }
 }
 @media (max-width: 480px) {
   .ctaHome {
     width: 40%;
+    width: 110px;
   }
 }

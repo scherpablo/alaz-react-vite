@@ -71,7 +71,6 @@ form {
   text-transform: uppercase;
   border-radius: 10px;
   font-size: 14px;
-  background-color: red;
 }
 .input[type="submit"]:hover {
   cursor: pointer;
@@ -82,7 +81,6 @@ form {
 }
 @media (max-width: 768px) {
   .input[type="submit"] {
-    width: 25%;
     width: 130px;
   }
 }
@@ -92,9 +90,13 @@ form {
     width: 100%;
   }
   .input[type="submit"] {
-    width: 40%;
     width: 110px;
   }
+}
+@media (max-width: 325px) {
+  .input[type="submit"] {
+    width: 100%;
+  }  
 }
 
 /* BUTTONS */
@@ -134,13 +136,16 @@ form {
 }
 @media (max-width: 768px) {
   .ctaHome {
-    width: 25%;
     width: 130px;
   }
 }
 @media (max-width: 480px) {
   .ctaHome {
-    width: 40%;
     width: 110px;
   }
+}
+@media (max-width: 325px) {
+  .ctaHome {
+    display: none;
+  }  
 }

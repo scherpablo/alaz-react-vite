@@ -71,13 +71,24 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.containerCopyright}>
-          <p>
-            <a href="#home">Alaz Logística </a>
+          <div className={styles.containerCopyLinks}>
+            <p> 
+              <a href="#home" className={styles.copyLink}>Alaz Logistica{" "}</a>
+              <span>{String.fromCharCode(169)} 2023 | Desarrollado por</span>{" "}
+              <Link
+                to="https://facilitadora.com.ar"
+                target="_blank"
+                className={styles.copyLink}
+              >
+                Facilitadora
+              </Link>
+            </p>
+            {/* <a href="#home">Alaz Logística </a>
             {String.fromCharCode(169)} 2023 | Desarrollado por
-            <Link to="https://facilitadora.com.ar" target="_blank">
-              <a href="https://facilitadora.com.ar"> Facilitadora.</a>
-            </Link>
-          </p>
+            <Link to="https://facilitadora.com.ar" target="_blank" className={styles.facilitadora}>
+              <p className={styles.facilitadora}> Facilitadora.</p>
+            </Link> */}
+          </div>
         </div>
       </footer>
     </>

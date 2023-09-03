@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
@@ -73,7 +74,9 @@ const Footer = () => {
           <p>
             <a href="#home">Alaz Logística </a>
             {String.fromCharCode(169)} 2023 | Desarrollado por
-            <a href="https://facilitadora.com.ar"> Facilitadora.</a>
+            <Link to="https://facilitadora.com.ar" target="_blank">
+              <a href="https://facilitadora.com.ar"> Facilitadora.</a>
+            </Link>
           </p>
         </div>
       </footer>

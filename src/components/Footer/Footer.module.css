@@ -60,11 +60,11 @@
   color:#fff;
   font-weight: 500;
 }
-.copyLink {
-  color:#fff;
-}
 .containerCopyLinks span {
   color: #c1da99;
+}
+.copyLink {
+  color:#fff;
 }
 .containerCopyright a:hover {
   color: #000;

@@ -9,6 +9,8 @@ import {
 import styles from "./Contact.module.css";
 
 const siteKey = import.meta.env.VITE_SITE_KEY;
+console.log("siteKey:", siteKey);
+
 
 const Contact = () => {
   const captcha = useRef(null);

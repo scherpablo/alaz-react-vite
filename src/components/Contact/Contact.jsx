@@ -9,10 +9,11 @@ import {
 import styles from "./Contact.module.css";
 
 const siteKey = import.meta.env.VITE_SITE_KEY;
+const formId = import.meta.env.VITE_FORM_ID;
 
 const Contact = () => {
   const captcha = useRef(null);
-  const [state, handleSubmit] = useForm("mzblgaly");
+  const [state, handleSubmit] = useForm({formId});
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [captchaError, setCaptchaError] = useState("");
   const [nameError, setNameError] = useState("");

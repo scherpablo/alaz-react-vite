@@ -8,6 +8,8 @@ import {
 } from "../../helpers/validations";
 import styles from "./Contact.module.css";
 
+const siteKey = import.meta.env.VITE_SITE_KEY;
+
 const Contact = () => {
   const captcha = useRef(null);
   const [state, handleSubmit] = useForm("mzblgaly");
@@ -130,7 +132,7 @@ const Contact = () => {
             />
             <div className={captcha}>
               <ReCAPTCHA
-                sitekey="6LeBCgAoAAAAAGazaOb1U5rL6OUAMXd6BMhENETV"
+                sitekey={siteKey}
                 onChange={onChange}
                 ref={captcha}
                 className={captcha}

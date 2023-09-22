@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"; 
 import styles from "./Us.module.css";
 
 const Us = () => {
@@ -5,22 +6,26 @@ const Us = () => {
     <>
       <section className={`${styles.containerInfo} ${styles.section}`} id="us">
         <div className={styles.containerTexts}>
-          <h2 className={`${styles.title} ${styles.left}`}>Nosotros</h2>
+          <h2 className={`${styles.title} ${styles.left}`}>La Empresa</h2>
           <p className={styles.paragraph}>
-            Somos una joven empresa argentina en pleno crecimiento y con
-            objetivos claros los cuales nos permiten mejorar día a día En un
-            mercado exigente y donde los tiempos de entrega son cada vez más
+            ALAZ LOGISTICA es un equipo apasionado por la logística y la
+            excelencia en el servicio. Nos encontramos en pleno crecimiento y
+            con objetivos claros los cuales nos permiten mejorar día a día. 
+            <br />
+            En un mercado exigente y donde los tiempos de entrega son cada vez más
             reducidos, ofrecemos a nuestros clientes un servicio de logística
-            integral. Para ello contamos con unidades acordes a cada necesidad,
-            atención personalizada y la calidad y confianza que Ud. necesita
+            integral. 
+            <br />
+            Para ello contamos con unidades acordes a cada necesidad,
+            atención personalizada y la calidad y confianza que usted necesita
             para poder cumplir con sus objetivos logísticos.
           </p>
-          <a href="" className={`${styles.cta} ${styles.ctaInfo}`}>
-            Learn More
-          </a>
+          <Link to="https://whatsapp.com/" target="_blank" rel="noreferer"><a className={`${styles.cta} ${styles.ctaInfo}`}>
+            Contacto
+          </a></Link>
         </div>
         {/* <img src="../public/img/us/logistica.png" alt="" className={styles.imgInfo}/> */}
-        <img src="/img/us/logistica.png" alt="" className={styles.imgInfo}/>
+        <img src="/img/us/logistica.png" alt="" className={styles.imgInfo} />
       </section>
     </>
   );

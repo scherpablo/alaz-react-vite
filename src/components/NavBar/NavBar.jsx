@@ -6,7 +6,7 @@ const NavBar = () => {
       <nav className={styles.navContainer}>
         <div className={styles.navLinks}>
           <a href="#us" className={styles.linksNav}>
-            Nosotros
+            La Empresa
           </a>
           <a href="#services" className={styles.linksNav}>
             Servicios

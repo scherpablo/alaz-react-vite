@@ -34,9 +34,7 @@
   transform: scale(1);
   transition: transform 1s;
   border-radius: 0 20px 20px 20px;
-  background-color: #0f547b99;
   background-color: #0f547b;
-  /* background-color: #000; */
 }
 .card:hover {
   box-shadow: 0 0 20px 0 #fff;
@@ -50,17 +48,18 @@
   font-size: 50px;
 }
 .card h3 {
-  font-size: 30px;
+  font-size: 28px;
   margin: 10px 0;
-  color: #fff;
   color: #000;
+  color: #fff;
+  text-transform: uppercase;
 }
 .card p {
   font-size: 16px;
   margin: 10px auto 20px auto;
   margin: 20px auto -10px auto;
   max-width: 300px;
-  text-align: center;
+  text-align: justify;
   color: #000;
   color: #fff;
   font-weight: 500;
@@ -83,8 +82,12 @@
   .card {
     width: auto;
   }
+  .card h3 {
+    font-size: 24px;
+  }
   .card p {
     padding: 15px;
+    font-size: 14px;
   }
 }
 

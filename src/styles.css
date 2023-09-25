@@ -8,7 +8,7 @@
     background-image: url("../img/html/portada-2.png");
     background-size: cover;
     background-attachment: fixed;
-    min-width: 300px;
+    min-width: 400px;
   }
   body {
     font-family: "Quicksand", sans-serif;

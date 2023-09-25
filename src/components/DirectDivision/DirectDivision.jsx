@@ -8,7 +8,6 @@ const DirectDivision = () => {
         className={`${styles.containerInfo} ${styles.section}`}
         id="directDivision"
       >
-        {/* <img src="../public/img/us/logistica.png" alt="" className={styles.imgDivision} /> */}
         <img
           src="/img/us/logistica.png"
           alt=""

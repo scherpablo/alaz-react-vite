@@ -28,9 +28,6 @@ const Card = ({ icon, title, info }) => {
                 ></i>
               </Link>
             </div>
-            {/* <a href="" className={`${styles.cta} ${styles.ctaCard}`}>
-              Mas info
-            </a> */}
           </article>
         </div>
     </>

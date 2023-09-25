@@ -12,13 +12,7 @@ const Header = () => {
               alt=""
               className={styles.logo}
             />
-          </div>
-          {/* <a
-            href="https://whatsapp.com/"
-            className={`${styles.ctaWhats} ${styles.cta}`}
-          >
-            WhatsApp
-          </a> */}     
+          </div>   
           <Link to="https://whatsapp.com/" target="_blank">
           <button>
               <div>

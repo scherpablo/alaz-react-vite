@@ -24,7 +24,6 @@ const Us = () => {
             Contacto
           </a></Link>
         </div>
-        {/* <img src="../public/img/us/logistica.png" alt="" className={styles.imgInfo}/> */}
         <img src="/img/us/logistica.png" alt="" className={styles.imgInfo} />
       </section>
     </>

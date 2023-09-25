@@ -8,7 +8,6 @@ const TopSection = () => {
           Brindamos el mejor servicio con la calidad y el compromiso que nos
           caracterizan.
         </h1>
-        {/* <img src="../public/img/topSection/camionetas.png" alt="" /> */}
         <img src="/img/topSection/camionetas.png" alt="" />
       </section>
     </>

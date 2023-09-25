@@ -24,6 +24,9 @@
   box-shadow: 0px 0px 10px 10px #fff;
 }
 .closeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 440px;
   right: 415px;
@@ -38,3 +41,7 @@
   width: 30px;
   height: 30px;
 }
+/* .modal button {
+  position: absolute;
+  right: 20px;
+} */

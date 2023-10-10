@@ -12,7 +12,7 @@ const NavBar = () => {
             Servicios
           </a>
           <a href="#directDivision" className={styles.linksNav}>
-            Division Directa
+            Division Venta Directa
           </a>
           <a href="#clients" className={styles.linksNav}>
             Clientes
